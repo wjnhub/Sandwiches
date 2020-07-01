@@ -71,7 +71,7 @@ struct ContentView: View {
 //                #endif
 //                Button("Add", action: makeSandwich)
 //            }	
-			// 先用就得实现方式显示导航栏功能按键
+			// 先用旧的实现方式显示导航栏功能按键
             .navigationBarItems(leading: EditButton(),
                                 trailing: Button("Add", action: makeSandwich))
             Text("Select a sandwich")
