@@ -193,7 +193,7 @@ struct SandwichDetail: View {
                 }
             Spacer(minLength: 0)
             
-            // 当非辣且图片没有放大时显示
+            // 当辣且图片没有放大时显示
             if sandwich.isSpicy && !zoomed {
                 HStack{
                     Spacer()
